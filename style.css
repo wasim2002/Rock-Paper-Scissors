@@ -1,5 +1,89 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
 }
+body {
+  background-color: #d6d0d0;
+}
+img {
+  width: 3vw;
+}
+main {
+  background-color: #fff;
+  width: 30vw;
+  height: 32vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.resultImgs {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+}
+.userRI img {
+  transform: rotate(90deg);
+}
+.compRI img {
+  transform: rotate(90deg) rotateX(180deg);
+}
+.resultT {
+  text-align: center;
+}
+.resultT p {
+  color: #7d2ae8f2;
+  font-size: 1.5vw;
+}
+.optionImgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.5;
+}
+.option:hover {
+  opacity: 1;
+}
+label {
+  color: #7d2ae8f2;
+}
+.active {
+  opacity: 1;
+}
+main.start .option {
+  pointer-events: none;
+}
+main.start .optionImgs {
+  cursor: not-allowed;
+}
+/* main.start .userRI img {
+  animation: userShake 0.8s ease infinite;
+  transform-origin: left;
+}
+@keyframes userShake {
+  50% {
+    transform: rotate(50deg);
+  }
+}
+main.start .compRI img {
+  animation: compShake 0.8s ease infinite;
+}
+@keyframes compShake {
+  50%{
+    transform: rotate();
+  }
+} */
