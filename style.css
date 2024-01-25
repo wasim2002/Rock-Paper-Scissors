@@ -15,7 +15,7 @@ img {
 main {
   background-color: #fff;
   width: 30vw;
-  height: 32vh;
+  height: 38vh;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -23,6 +23,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 10px;
+  gap: 1rem;
 }
 .resultImgs {
   display: flex;
@@ -34,7 +36,7 @@ main {
   transform: rotate(90deg);
 }
 .compRI img {
-  transform: rotate(90deg) rotateX(180deg);
+  transform: rotate(270deg) rotateY(180deg);
 }
 .resultT {
   text-align: center;
@@ -48,6 +50,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  margin-top: 0.5rem;
 }
 .option {
   display: flex;
@@ -70,20 +73,19 @@ main.start .option {
 main.start .optionImgs {
   cursor: not-allowed;
 }
-/* main.start .userRI img {
+main.start .userRI img {
   animation: userShake 0.8s ease infinite;
-  transform-origin: left;
 }
 @keyframes userShake {
   50% {
-    transform: rotate(50deg);
+    transform: rotate(100deg);
   }
 }
 main.start .compRI img {
   animation: compShake 0.8s ease infinite;
 }
 @keyframes compShake {
-  50%{
-    transform: rotate();
+  50% {
+    transform: rotate(260deg) rotateY(180deg);
   }
-} */
+}

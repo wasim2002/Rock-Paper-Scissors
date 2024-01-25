@@ -7,6 +7,7 @@ const main = document.querySelector("main")
 options.forEach((option, index) => {
     option.addEventListener("click", function () {
         userResultImg.src = compResultImg.src = "./images/rock.png"
+        text.innerHTML="Playing ...."
         option.classList.add("active")
         main.classList.add("start")
         options.forEach((option2, index2) => {
@@ -33,6 +34,6 @@ options.forEach((option, index) => {
             }
             text.innerHTML = outCome[userImgVal + compImgVal]
             console.log(outCome[userImgVal + compImgVal]);
-        }, 3000);
+        }, 2000);
     })
 })
