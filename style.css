@@ -89,3 +89,34 @@ main.start .compRI img {
     transform: rotate(260deg) rotateY(180deg);
   }
 }
+
+@media (max-width: 1600px) {
+  .optionImgs {
+    gap: 4rem;
+  }
+}
+@media (max-width: 1450px) {
+  main {
+    height: 35vh;
+  }
+  main {
+    width: 3.9vw;
+  }
+}
+@media (max-width: 1300px) {
+  img {
+    width: 3.85vw;
+  }
+  main {
+    height: 34vh;
+    width: 34vw;
+  }
+}
+@media (max-width: 1150px) {
+  img {
+    width: 3.8vw;
+  }
+  main{
+    width: 38vw;
+  }
+}
