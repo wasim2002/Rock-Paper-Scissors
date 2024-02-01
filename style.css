@@ -15,7 +15,7 @@ img {
 main {
   background-color: #fff;
   width: 30rem;
-  height: 38vh;
+  height: 44vh;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -91,28 +91,34 @@ main.start .compRI img {
   }
 }
 
-/* @media (max-width: 1600px) {
-  .optionImgs {
-    gap: 4rem;
-  }
-}
-@media (max-width: 1450px) {
-  main {
-    height: 35vh;
-  }
-  main {
-    width: 3.9vw;
-  }
-}
 @media (max-width: 1300px) {
-  img {
-    width: 3.85vw;
-  }
   main {
-    height: 34vh;
-    width: 34vw;
+    width: 29rem;
+  }
+  img {
+    width: 2.7rem;
   }
 }
+
+@media (max-width: 1000px) {
+  main {
+    width: 26rem;
+    height: 40vh;
+  }
+  img {
+    width: 2.5rem;
+  }
+  .optionImgs {
+    gap: 3rem;
+  }
+  .resultT p {
+    font-size: 1.4rem;
+  }
+  label {
+    font-size: 0.9rem;
+  }
+}
+/* 
 @media (max-width: 1150px) {
   img {
     width: 3.8vw;
