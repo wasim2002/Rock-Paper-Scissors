@@ -103,7 +103,7 @@ main.start .compRI img {
 @media (max-width: 1000px) {
   main {
     width: 26rem;
-    height: 40vh;
+    height: 15.75rem;
   }
   img {
     width: 2.5rem;
@@ -124,7 +124,7 @@ main.start .compRI img {
   }
   main{
     width: 24rem;
-    height: 38vh;
+    height: 15rem;
   }
   .resultT p{
     font-size: 1.3rem;
