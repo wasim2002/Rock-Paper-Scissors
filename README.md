@@ -11,7 +11,11 @@ Here we see on the **top** Two _players_ following:
 - Player
 - Computer
 
-We create it like at the begining **Two players** ready to _play_ and both of the player fold there hands _shaking_ and show there turn,
+We create it like at the begining **Two players** ready to _play_ and both of the player fold there hands _shaking_ and show there turn,  
+At the Bottom we see **three** _options_  
+whenever user hover on options their opacity will 1 and they looks like **darker**.  
+When user/player choose any one option the option will darker and game will **start** and during the playing process user will not able to choose any rest of the options.  
+
 And at the **Middle** we add text area there at the start it's show `let's play` and when you click on any option below as :
 - Rock 
 - Paper 
@@ -32,8 +36,18 @@ so we see the player is won the match and it shows as **_`You Won`_**
 
 **`Computer Won`**
 
-<img src="./images/screenshots/rock-computer-won.png" width="400">
+<img src="./images/screenshots/rock-computer-won.png" width="400">  
+
+Here user is select **Rock** option and computer is select **Paper** option,  
+Now according to Game Rule `Paper will win over Rock`  
+So here computer is winner, and message is **`Computer Won`**  
 
 **`Match Draw`**
 
-<img src="./images/screenshots/paper-match-draw.png" width=400>
+<img src="./images/screenshots/paper-match-draw.png" width=400>  
+
+According to image user select **Paper** and also computer select **Paper**,  
+so according to the rule _when both of the option is same that time match clash_  
+so that time **`Match draw`**  
+  
+>so That's all i hove you enjoy game  
