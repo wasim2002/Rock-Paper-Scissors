@@ -22,12 +22,15 @@ then it show or displaying `playing...`
 ![playing](./images/screenshots/playing.png)
 
 and after some time it show as the winner or draw as :   
+  
 **`You Won`**
 
 ![](./images/screenshots/scissors-you-won.png)
 As we see the player is choose the _**Scissors**_ option and computer choose the _**Paper**_ and according to rule scissors win over paper,
-so we see the player is won the match and it shows as **_`You Won`_**
+so we see the player is won the match and it shows as **_`You Won`_**  
+
 **`Computer Won`**
+
 ![](./images/screenshots/rock-computer-won.png)
 **`Match Draw`**
 ![](./images/screenshots/paper-match-draw.png)
