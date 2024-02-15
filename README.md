@@ -1,6 +1,9 @@
 # Rock Paper Scissors Game 😍
 
 ---
+For JavaScript practice i create this Game project  
+This is a single player game with **computer**  
+where you choose an option and and computer choose an option and play  
 
 **`It looks like`**
 
