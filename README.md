@@ -4,7 +4,7 @@
 
 **`It looks like`**
 
-![home](./images/screenshots/home.png)
+<img src="./images/screenshots/home.png" width="500">
 
 This is **Home** (you called it),  
 Here we see on the **top** Two _players_ following:
@@ -19,18 +19,21 @@ And at the **Middle** we add text area there at the start it's show `let's play`
 
 then it show or displaying `playing...` 
 
-![playing](./images/screenshots/playing.png)
+<img src="./images/screenshots/playing.png" width="400">
 
 and after some time it show as the winner or draw as :   
   
 **`You Won`**
 
-![](./images/screenshots/scissors-you-won.png)
+<img src="./images/screenshots/scissors-you-won.png" width="400">  
+
 As we see the player is choose the _**Scissors**_ option and computer choose the _**Paper**_ and according to rule scissors win over paper,
-so we see the player is won the match and it shows as **_`You Won`_**  
+so we see the player is won the match and it shows as **_`You Won`_**   
 
 **`Computer Won`**
 
-![](./images/screenshots/rock-computer-won.png)
+<img src="./images/screenshots/rock-computer-won.png" width="400">
+
 **`Match Draw`**
-![](./images/screenshots/paper-match-draw.png)
+
+<img src="./images/screenshots/paper-match-draw.png" width=400>
