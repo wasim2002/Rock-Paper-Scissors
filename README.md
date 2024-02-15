@@ -21,7 +21,7 @@ then it show or displaying `playing...`
 
 ![playing](./images/screenshots/playing.png)
 
-and after some time it show as the winner or draw as : 
+and after some time it show as the winner or draw as :   
 **`You Won`**
 
 ![](./images/screenshots/scissors-you-won.png)
